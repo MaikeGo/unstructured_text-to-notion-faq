@@ -42,3 +42,16 @@ You can set them securely as environment variables (recommended) or insert them 
 Example environment variables:
 - `OPENAI_API_KEY`
 - `NOTION_API_KEY`
+
+---
+# **Cost Estimate**
+
+Running this code on approximately 2,000 text messages using the OpenAI `gpt-4o` model cost me less than **$1** in API usage.
+
+👉 **Important:** Actual costs will vary depending on:
+- The total number of tokens processed — which depends heavily on **how many messages** you process and **how long each message is** (more text = more tokens).
+- The model used (e.g., GPT-4o is cheaper than GPT-4-turbo).
+
+🛡️ **Tip:**  
+To control spending, you can disable "Auto-recharge" in your OpenAI billing settings and/or set a usage limit.  
+Always monitor your usage in the [OpenAI usage dashboard](https://platform.openai.com/usage) to avoid unexpected charges.
