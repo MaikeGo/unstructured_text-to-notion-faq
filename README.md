@@ -1,4 +1,6 @@
-# unstructured_text-to-notion-faq: Overview
+# unstructured_text-to-notion-faq
+
+> Built with Python, OpenAI API, and Notion API.
 
 This project uses an LLM (via the OpenAI API) to extract commonly asked questions from unstructured text data and automatically creates a Notion page (via the Notion API) to document them.
 
@@ -31,7 +33,7 @@ To run this notebook, you will need:
   After creating the integration, copy your **Internal Integration Token** (the Notion secret/API key), and  
   ➔ **share the target Notion page** with your integration to give it the necessary permissions.
 
-Please make sure you have both  your OpenAI and Notion API keys ready before running the code.  
+Please make sure you have both your OpenAI and Notion API keys ready before running the code.  
 You can set them securely as environment variables (recommended) or insert them directly into the code (not recommended for shared environments).
 
 Example environment variables:
