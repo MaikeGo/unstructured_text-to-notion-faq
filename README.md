@@ -7,7 +7,7 @@ This project uses an LLM (via the OpenAI API) to extract commonly asked question
 The Slack message data used in this example was originally extracted using **Fivetran**.  However, the code is **designed to work with any text-based message data**. You can adapt it easily to any dataset containing text conversations (e.g., customer chats, support tickets, forum posts).
 
 The results created by the automated Notion integration can be viewed here:  
-🔗 [View Results on Notion](https://www.notion.so/Results-of-LLM-text-analysis-with-automated-Notion-Integration-1afd8cbfdbfd805d867bd9c9cb36e5d5)
+🔗 [View Results on Notion]([https://www.notion.so/Auto-generated-FAQ-1afd8cbfdbfd80279fa5c9200855c19b])
 (Note: The formatting still has room for improvement!)
 
 ---
